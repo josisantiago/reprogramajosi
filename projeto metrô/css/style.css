@@ -1,0 +1,97 @@
+*{
+  font-family: 'Rubik', sans-serif;
+  box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background-image: url("../img/azul-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 45% 100%;
+    width: 100vw;
+    min-height: 100vh;
+    background-position: top left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .row {
+    display: flex;
+    max-width: 1280px;
+    margin: 0 auto;
+    width: 100%;
+  }
+  h1 {
+    font-size: 72px;
+    margin: 0;
+  }
+  .column {
+    width: 100%;
+  } 
+
+  .ul {
+    text-decoration-color: #ffffff;
+  }
+
+.menu__linhas {
+  list-style-type: none;
+}
+
+.linhas__metro {
+width: 60vw;
+}
+
+.logo__metro {
+  height: max-content;
+  padding-top: 40px;
+  padding-left: 100px;
+}
+
+.titulo {
+  margin-right: 20px;
+  font-size: 50px;
+}
+
+.img__linhas {
+  background-image: url("../img/linhas.png");
+  background-size: auto 160px;
+  width: 1440px;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-position: top left;
+  padding-top: 200px;
+}
+
+.link {
+color: #ffffff;
+padding-top: 20px;
+padding-left: 100px;
+}
+
+li {
+  padding-top: 10px;
+}
+
+.footer{
+  position: fixed;
+  left: 0;
+  width: 100%;
+  bottom: 0;
+  text-align: center;
+  margin-left: 25%;
+  font-size: 12px;
+}
+
+@media (max-width: 1280px) {
+  body {
+    background-color: #008000;
+  }
+}
+@media (max-width: 1280px) {
+  .row {
+    display: block;
+  }
+
+}
